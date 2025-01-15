@@ -26,7 +26,7 @@ stabilization branches.
 Merging to `master` first also helps ensure that fixes applied to one release
 are present for future releases.  (Sometimes the joy of landing a critical
 release blocker in a branch causes you to forget to propagate back to
-`master`!)"
+`master`!)
 
 Once the bug fix lands on `master` it is cherry-picked into the `vX.Y` branch
 and potentially the `vX.Y-1` branch.  The exception to this rule is when a bug
